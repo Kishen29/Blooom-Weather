@@ -43,5 +43,5 @@ button.addEventListener('click',function(){
             winddegree.innerHTML = windDegreeVal;
             windgust.innerHTML = windGustVal;
         })
-	
+	.catch(err=>alert('Enter a valid city name'))
 });
