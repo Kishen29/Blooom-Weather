@@ -1,7 +1,11 @@
 *{
     box-sizing: border-box;
 }
-
+body
+{
+    background-color: #fcde67;
+    color: #000000;
+}
 .heading{
     text-align: center;
 }
@@ -26,6 +30,8 @@
     margin: 20px;
     float: left;
     padding-top: 5px;
+    margin-left: 500px;
+    background-color: bisque;
 }
 #button {
     background-color: DodgerBlue;
