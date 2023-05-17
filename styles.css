@@ -1,44 +1,53 @@
-*{
-    box-sizing: border-box;
+input[type=text],
+select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
 }
-body
-{
-    background-color: #fcde67;
-    color: #000000;
+
+button {
+  width: 30%;
+  background-color: #F2AA4CFF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.heading{
-    text-align: center;
+
+button:hover {
+  background-color: rgb(255, 145, 0);
 }
-#inputValue{
-    width: 800px;
-    height: 25px;
-    align-content: center;
-    font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 5px;
+
+.parent {
+  background-color: #F2AA4CFF;
+  width: 200px;
+  border: 15px solid rgb(116, 98, 98);
+  padding: 15px;
+  margin: auto;
 }
-.input{
-    text-align: center;
+
+body {
+  background-color: rgb(37, 35, 35);
+  text-align: center;
 }
-.box{
-    border: 3px solid black;
-    border-radius: 5px;
-    width: 200px;
-    height: 200px;
-    padding: 15px;
-    text-align: left;
-    margin: 20px;
-    float: left;
-    padding-top: 5px;
-    margin-left: 500px;
-    background-color: bisque;
+
+.heading {
+  overflow: hidden;
+  padding: 5px;
+  background-color: rgb(37, 35, 35);
+  color: #F2AA4CFF;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#button {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 5px 5px;
-    font-size: 6px;
-    cursor: pointer;
-    border-radius: 10px;
-  }
+
+.datas {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

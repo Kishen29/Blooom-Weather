@@ -4,30 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dark Sky</title>
     <script
       src="https://kit.fontawesome.com/e57dc9aaeb.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" type="image/jpg" href="favicon-16x16.png"/>
   </head>
   <body>
-    <i class="fas fa-cloud"></i>
     <div class="heading">
-      <h1>BLOOM WEATHER</h1>
+      <h1>DARK SKY</h1>
     </div>
     <div class="input">
-      <input type="text" name="inputfield" id="inputValue" />
-      <button id="button"><i class="fas fa-search"></i></button>
+      <input type="text" name="inputfield" id="inputValue" placeholder="Enter the city to check live weather update"/><br>
+      <button id="button">Click To Go</button>
     </div>
     <br /><br />
-    <section class="parent">
-      <section class="box">
+    <div class="parent">
+      <div class="box">
         <h3><span class="datas" id="name"></span></h3>
         <h3><span class="datas" id="desc"></span></h3>
         <h3><span class="datas" id="temp"></span></h3>
-      </section>
-    </section>
+      </div>
+    </div>
     <script src="script.js" type="text/javascript" charset="utf-8"></script>
+	<video width="320" height="240" controls>
+  		<source src="Breaking-bad.mkv" type="video/mp4">
+  		<source src="movie.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video>
   </body>
 </html>
